@@ -1,6 +1,7 @@
 # TD 2 et 3 : machines de Turing
 
 Le script `unary_to_binary.py` est une implémentation en Python de la machine de Turing de l'exercice 3 qui convertit les nombre unaires en binaires.  
+Le programme affiche trois colonnes : **la règle de transition appliquée, le ruban et la position de la tête de lecture**. Pour cette machine de Turing en particulier, cette dernière est toujours initialement positionnée sur le 1 le plus à droite.
 Ci dessous, deux exemples de résultats pour des valeurs de 4 et 5.  
 * Exemple 1 : 4 en décimal , 1111 en unaire, 100 en binaire
 ```
