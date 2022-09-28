@@ -1,4 +1,48 @@
 # TD 2 et 3 : machines de Turing
 
-Le script Python unary_to_binary.py est une implémentation en Python de la machine de Turing de l'exercice 3 qui convertit les nombre unaires en binaires.  
-Ci dessous, deux exemples de résultats pour des valeurs de 4 (en décimal ; 1111 en unaire, 100 en binaire) et 5 (en décimal ; 11111 en unaire ; 101 en binaire).
+Le script `unary_to_binary.py` est une implémentation en Python de la machine de Turing de l'exercice 3 qui convertit les nombre unaires en binaires.  
+Ci dessous, deux exemples de résultats pour des valeurs de 4 et 5.  
+* Exemple 1 : 4 en décimal , 1111 en unaire, 100 en binaire
+```
+$ python3 unary_to_binary.py "############1111########"
+Initial  ############1111######## 15
+Règle 06 ############111######### 14
+Règle 07 ############111######### 13
+Règle 07 ############111######### 12
+Règle 07 ############111######### 11
+Règle 08 ############111######### 10
+Règle 12 ##########1#111######### 11
+Règle 03 ##########1#111######### 12
+Règle 05 ##########1#111######### 13
+Règle 05 ##########1#111######### 14
+Règle 05 ##########1#111######### 15
+Règle 04 ##########1#111######### 14
+Règle 06 ##########1#11########## 13
+Règle 07 ##########1#11########## 12
+Règle 07 ##########1#11########## 11
+Règle 08 ##########1#11########## 10
+Règle 10 ##########0#11########## 9
+Règle 12 #########10#11########## 10
+Règle 02 #########10#11########## 11
+Règle 03 #########10#11########## 12
+Règle 05 #########10#11########## 13
+Règle 05 #########10#11########## 14
+Règle 04 #########10#11########## 13
+Règle 06 #########10#1########### 12
+Règle 07 #########10#1########### 11
+Règle 08 #########10#1########### 10
+Règle 11 #########11#1########### 11
+Règle 03 #########11#1########### 12
+Règle 05 #########11#1########### 13
+Règle 04 #########11#1########### 12
+Règle 06 #########11############# 11
+Règle 08 #########11############# 10
+Règle 10 #########10############# 9
+Règle 10 #########00############# 8
+Règle 12 ########100############# 9
+Règle 02 ########100############# 10
+Règle 02 ########100############# 11
+Règle 03 ########100############# 12
+Règle 04 ########100############# 11
+Règle 09 ########100############# 12
+```
